@@ -40,9 +40,6 @@
 		   }  
 		</script>
 
-		<?php
-			$if_home = get_home_url();
-		 ?>
 
 	</head>
 	<body <?php body_class(); ?>>
