@@ -51,7 +51,7 @@
 			<!-- header -->
 			<header class="clearfix">
   				<ul class="container_12 clearfix">
-    				<li><a class="active" href="#" title="Home">Home</a></li>
+    				<li><a class="active" href="index.php/home" title="Home">Home</a></li>
    				 <li><a href="about-us/" title="About Us">About Us</a></li>
     				<li><a href="products/" title="Products">Products</a></li>
     				<li><a href="toolssupport" title="Tools & Supports">Tools & Supports</a></li>
