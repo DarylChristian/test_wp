@@ -1,0 +1,136 @@
+@font-face { font-family:'AvantGarde'; src: url('../avgardm.ttf'); }
+* { margin:0; }
+html, body { height:100%; }
+body { background:#131212; font-family:'myriad pro', helvetica, arial, sans-serif; font-size:12px; color:#ccc; }
+div#wrapper { height:auto !important; height:100%; margin:0 auto -44px; min-height:100%; }
+
+img.left { float:left; }
+img.right { float:right; }
+img.center { display:block; margin:0 auto; }
+header { background:transparent url(../img/bg-nav.png) 0 0 repeat-x; height:68px; }
+header ul { margin-top:20px; }
+header ul li { float:left; margin-right:73px; text-transform:uppercase; }
+header ul li.noMargin { margin:0; }
+header ul li a { color:#ccc; text-decoration:none; }
+header ul li a:hover, header ul li a.active { color:#42b3ff; }
+section#logo { margin:-20px auto 0; width:599px; }
+section#logo a h1 { background:transparent url(../img/logo.png) 0 0 no-repeat; font-size:0px; height:151px; text-indent:-9999px; width:599px; }
+div#subHighlight { background:transparent url(../img/bg-slider.png) 0 0 repeat-x; height:120px; }
+div#highlight { background:transparent url(../img/bg-slider.png) 0 0 repeat-x; height:455px; }
+div#highlight div#slider-wrapper { height:314px; margin:-30px auto 0; position:relative; }
+div#highlight div#slider { background:transparent url(../img/bg-slider-container.png) 0 0 no-repeat; height:317px; margin-top:-30px; width:871px; }
+div#highlight div#slider div { margin-top:5px; width:865px; } 
+div#highlight div#slider div section.sliderImg { float:left; width:450px; }
+div#highlight div#slider div section.sliderImg img { float:right; }
+div#highlight div#slider div section.sliderContent { float:left; margin:40px 0 0 20px; width:330px; }
+div#highlight div#slider div section.sliderContent h2 { color:#fff; font-size:32px; font-weight:normal; margin-bottom:10px; } 
+div#highlight div#slider div section.sliderContent h1 { color:#42b3ff; font-size:16px; font-weight:normal; margin-bottom:8px; text-transform:uppercase; } 
+div#highlight div#slider div section.sliderContent p { color:#ccc; font-size:13px; line-height:18px; } 
+div#highlight div#slider div section.sliderContent a.more { background:transparent url(../img/btn-slider.png) 0 0 no-repeat; color:#fff; display:block; height:25px; margin-top:30px; padding-top:10px; text-align:center; text-decoration:none; text-transform:uppercase; width:137px; }
+div#highlight div#slider div section.sliderContent a.more:hover { color:#ccc; }
+div#highlight div#slider div section.sliderContent span.no { display:none; }
+div#container { background:#131212 url(../img/bg-content.png) 0 0 repeat-x; padding:30px 0 0; }
+div#container section#products { margin:30px auto; }
+div#container section#products article { text-align:center; }
+div#container section#products article div.prodContent { background:transparent url(../img/bg-prod.png) 0 0 no-repeat; height:240px; padding:10px 50px 0; width:200px; }
+div#container section#products article div.prodContent h1 { color:#fff; font-size:24px; font-weight:normal; text-transform:uppercase; } 
+div#container section#products article div.prodContent img { display:block; margin:10px auto; }
+div#container section#products article div.prodContent h2 { color:#25739f; font-family:'AvantGarde', helvetica, arial, sans-serif; font-weight:normal; text-transform:uppercase; }
+div#container section#products article div.prodContent p { color:#999; }
+div#container section#products article a.prodMore { background:transparent url(../img/btn-readmore.png) 0 0 no-repeat; color:#fff; display:block; font-size:11px; height:18px; margin:15px auto 0; padding-top:3px; text-decoration:none; text-transform:uppercase; width:78px; }
+div#container section#products article a.prodMore:hover { color:#63bc46; }
+div#container section#intro { margin-bottom:30px; }
+div#container section#intro h4 { font-family:'AvantGarde', helvetica, arial, sans-serif; color:#fff; font-size:22px; font-weight:normal; text-transform:uppercase; }
+div#container section#intro p { color:#ccc; font-size:13px; } 
+div#container section#about, div#container section#download, div#container section#toolSupport, div#container section#whyCree, div#container section#product, div#container section#contact { margin-bottom:50px; }
+div#container section#about article div, div#container section#download article div { margin-bottom:40px; }
+div#container section#about article h4, div#container section#download article h4, div#container section#toolSupport article h4, div#container section#whyCree article h4, div#container section#category article h4, div#container section#product article h4, div#container section#contact article h4 { font-family:'AvantGarde', helvetica, arial, sans-serif; color:#fff; font-size:22px; font-weight:normal; margin-bottom:18px; }
+div#container section#about article p, div#container section#download article p, div#container section#product article div p, div#container section#contact article div p { color:#ccc; font-size:13px; line-height:20px; margin-bottom:20px; }
+div#container section#download article div img { display:block; margin:0 auto; }
+div#container section#download article div a.more { background:transparent url(../img/btn-readmore.png) 0 0 no-repeat; color:#fff; display:block; font-size:10px; height:18px; margin:15px auto 0; padding-top:3px; text-align:center; text-decoration:none; text-transform:uppercase; width:78px; }
+div#container section#download article div a.more:hover { color:#63bc46; }
+div#container section#toolSupport article div ul#sidelink {}
+div#container section#toolSupport article div ul#sidelink li, div#container section#whyCree article div ul#sidelink li { background:transparent url(../img/bg-sidelink.png) 0 0 no-repeat; height:42px; margin-bottom:10px; padding:18px 0 0; text-align:center; width:220px; }
+div#container section#toolSupport article div ul#sidelink li a, div#container section#whyCree article div ul#sidelink li a { color:#fff; font-size:17px; font-size:18px; text-decoration:none; }
+div#container section#toolSupport article div ul#sidelink li a:hover, div#container section#whyCree article div ul#sidelink li a:hover { color:#63bc46; }
+div#container section#toolSupport article div div.left { float:left; font-size:13px; margin-right:10px; width:340px; }
+div#container section#toolSupport article div div.right { float:left; font-size:13px; margin-left:10px; width:340px; }
+div#container section#toolSupport article div div.left h2, div#container section#toolSupport article div div.right h2 { color:#0b8fb0; font-size:13px; font-weight:bold; }
+div#container section#toolSupport article div div.left ul, div#container section#toolSupport article div div.right ul { margin:5px 0; }
+div#container section#toolSupport article div div.left ul li, div#container section#toolSupport article div div.right ul li { background:transparent url(../img/bg-li.png) 0 0 no-repeat; padding:0 0 4px 12px; }
+div#container section#toolSupport article div div.left ul li a, div#container section#toolSupport article div div.right ul li a { color:#fff; text-decoration:none; }
+div#container section#toolSupport article div div.left ul li a:hover, div#container section#toolSupport article div div.right ul li a:hover { color:#63bc46; text-decoration:none; }
+div#container section#whyCree article h3 { color:#fff; font-size:18px; font-weight:normal; margin-bottom:15px; }
+div#container section#whyCree article p { font-size:13px; line-height:18px; } 
+div#container section#whyCree article div ul#whyCree { margin-top:20px; }
+div#container section#whyCree article div ul#whyCree li { margin-bottom:20px; }
+div#container section#whyCree article div ul#whyCree li div.img { float:left; margin-right:10px; width:170px; }
+div#container section#whyCree article div ul#whyCree li div.content { float:left; margin-left:10px; width:510px; }
+div#container section#whyCree article div ul#whyCree li div.content h2, div#container section#product article div h2, div#container section#contact article div h2 { color:#0b8fb0; font-size:13px; font-weight:bold; margin-bottom:5px; }
+div#container section#whyCree article div ul#whyCree li div.content p { font-size:12px; }
+div#container section#whyCree article div ul#whyCree li div.content a.more { background:transparent url(../img/btn-readmore.png) 0 0 no-repeat; color:#fff; display:block; float:left; font-size:10px; height:18px; margin:15px auto 0; padding-top:3px; text-align:center; text-decoration:none; text-transform:uppercase; width:78px; }
+div#container section#whyCree article div ul#whyCree li div.content a.more:hover { color:#63bc46; }
+div#container section#contact article div form {}
+div#container section#contact article div form div { margin-bottom:10px; }
+div#container section#contact article div form div label { color:#fff; display:inline-block; font-size:13px; padding-top:3px; vertical-align:top; width:100px; }
+div#container section#contact article div form div input[type=text], div#container section#contact article div form div textarea { color:#333; font-family:helvetica, arial, sans-serif; font-size:12px; padding:5px; width:500px; }
+div#container section#contact article div form div input[type=submit] { background:transparent url(../img/btn-readmore.png) 0 0 no-repeat; border:0; color:#fff; display:block; float:right; font-size:10px; height:18px; margin:15px auto 0; text-align:center; text-decoration:none; text-transform:uppercase; width:78px; }
+div#container section#category article div ul#category {}
+div#container section#category article div ul#category li { float:left; margin:0 0 10px 10px; padding:7px 7px 3px; width:180px; }
+div#container section#category article div ul#category li.current { background:#63bc46; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; }
+div#container section#category article div ul#category li.current a { color:#000; }
+div#container section#category article div ul#category li a { background:transparent url(../img/bg-li.png) 0 0 no-repeat; color:#fff; display:inline-block; font-size:13px; padding:0 0 4px 12px; text-decoration:none; }
+div#container section#category article div ul#category li a:hover { color:#63bc46; }
+div#container section#category article div h1 { color:#63bc46; font-size:32px; line-height:34px; margin-bottom:10px; }
+div#container section#category article div p.catPoints { color:#fff; font-size:26px; margin-bottom:10px; }
+div#container section#category article div p.catInfo { font-size:18px;  margin-bottom:10px; }
+div#container section#category section#catList { background:transparent url(../img/border.png) top center no-repeat; margin:50px auto; }
+div#container section#category section#catList ul { margin-top:50px; }
+div#container section#category section#catList ul li { float:left; margin-bottom:20px; text-align:center; width:300px; }
+div#container section#category section#catList ul li div.prodContent { background:transparent url(../img/bg-prod.png) 0 0 no-repeat; height:240px; padding:10px 50px 0; width:200px; }
+div#container section#category section#catList ul li div.prodContent h1 { color:#fff; font-size:24px; font-weight:normal; text-transform:uppercase; } 
+div#container section#category section#catList ul li div.prodContent img { display:block; margin:10px auto; }
+div#container section#category section#catList ul li div.prodContent h2 { color:#25739f; font-family:'AvantGarde', helvetica, arial, sans-serif; font-weight:normal; text-transform:uppercase; }
+div#container section#category section#catList ul li div.prodContent p { color:#999; }
+div#container section#category section#catList ul li a.prodMore { background:transparent url(../img/btn-readmore.png) 0 0 no-repeat; color:#fff; display:block; font-size:11px; height:18px; margin:15px auto 0; padding-top:3px; text-decoration:none; text-transform:uppercase; width:78px; }
+div#container section#category section#catList ul li a.prodMore:hover { color:#63bc46; }
+div#container section#product article div article.prodSingle { background:transparent url(../img/bg-prod.png) 0 0 no-repeat; height:240px; padding:10px 50px 0; text-align:center; width:200px; }
+div#container section#product article div article.prodSingle h1 { color:#fff; font-size:24px; font-weight:normal; text-transform:uppercase; } 
+div#container section#product article div article.prodSingle img { display:block; margin:10px auto; }
+div#container section#product article div article.prodSingle h2 { color:#25739f; font-family:'AvantGarde', helvetica, arial, sans-serif; font-weight:normal; text-transform:uppercase; }
+div#container section#product article div article.prodSingle p { color:#999; font-size:12px; line-height:13px; }
+div#container section#product article div a.add { background:transparent url(../img/btn-readmore.png) 0 0 no-repeat; color:#fff; display:block; font-size:11px; height:18px; margin:15px auto 0; padding-top:3px; text-align:center; text-decoration:none; text-transform:uppercase; width:78px; }
+div#container section#product article div a.add:hover { color:#63bc46; }
+div#container section#product article div ul li { background:transparent url(../img/bg-li.png) 0 0 no-repeat; padding:0 0 4px 12px; }
+div#container section#paginate { margin-top:50px; }
+div#container section#paginate div a#prev { background:transparent url(../img/arw-left.png) 0 0 no-repeat; display:block; color:#fff; font-size:13px; height:24px; padding:3px 0 0 38px; text-decoration:none; text-transform:lowercase; width:28px; }
+div#container section#paginate div a#next { background:transparent url(../img/arw-right.png) top right no-repeat; display:block; color:#fff; float:right; font-size:13px; height:24px; margin-right:-20px; padding:3px 35px 0 0; text-decoration:none; text-transform:lowercase; width:28px; }
+div#container section#paginate div a#prev:hover, div#container section#paginate div a#next:hover { color:#0b8fb0; }
+div#container section#bottom { background:transparent url(../img/border.png) top center no-repeat; }
+div#container section#bottom div { margin:30px auto; }
+div#container section#bottom div article h3 { border-bottom:1px solid #999; color:#fff; font-size:16px; margin-bottom:20px; padding:0 0 7px; }
+div#container section#bottom div article h2 { color:#fff; font-size:16px; margin-bottom:7px; text-transform:uppercase; }
+div#container section#bottom div article h1 { color:#0b8fb0; font-weight:bold; }
+div#container section#bottom div article ul.links { margin:5px 0; }
+div#container section#bottom div article ul.links li { background:transparent url(../img/bg-li.png) 0 0 no-repeat; padding:0 0 4px 12px; }
+div#container section#bottom div article ul.links li a { color:#999; text-decoration:none; }
+div#container section#bottom div article ul.links li a:hover { color:#fff; text-decoration:none; }
+div#container section#bottom div article form { background:#292929; margin:8px 0; margin:20px 0; padding:8px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; }
+div#container section#bottom div article form input[type=text] { background:#292929; border:0; color:#777; font-family:helvetica, arial, sans-serif; font-size:12px; font-weight:bold; width:360px; }
+div#container section#bottom div article form input[type=submit] { background:transparent url(../img/btn-subscribe.png) 0 0 no-repeat; border:0; color:#4a4a4a; cursor:pointer; font-family:helvetica, arial, sans-serif; font-size:12px; font-weight:bold; height:28px; text-shadow:1px 1px 0 #fff; width:79px; }
+div#container section#bottom div article#cree { float:right; margin-top:40px; width:100%; }
+div#container section#bottom div article#cree a { float:right; }
+div#container section#bottom div article#cree h1 { background:transparent url(../img/logo-cree.png) 0 0 no-repeat; font-size:0px; height:55px; text-indent:-9999px; width:150px; }
+div#container section#bottom div article#sns { float:right; margin:20px 0; }
+div#container section#bottom div article#sns li { float:left; margin-left:10px; }
+div#container section#bottom div article#sns li.text { font-family:'AvantGarde', helvetica, arial, sans-serif; padding-top:10px; text-transform:uppercase; }
+div#push { height:44px; }
+footer { background:transparent url(../img/bg-footer.png) 0 0 repeat-x; font-family:'AvantGarde', helvetica, arial, sans-serif; color:#777; height:44px; text-transform:uppercase }
+footer div { padding-top:15px; }
+footer div article#links li { border-left:1px solid #555; float:right; padding:0 10px; }
+footer div article#links li.faq { border:0; }
+footer div article#links li.contact { padding-right:0; }
+footer div article#links li a { color:#555; text-decoration:none; }
+footer div article#links li a:hover { color:#fff; }
+
+
