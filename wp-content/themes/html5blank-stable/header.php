@@ -40,7 +40,9 @@
 		   }  
 		</script>
 
-
+		<?php
+			$if_home = get_home_url();
+		 ?>
 
 	</head>
 	<body <?php body_class(); ?>>
@@ -51,18 +53,18 @@
 			<!-- header -->
 			<header class="clearfix">
   				<ul class="container_12 clearfix">
-    				<li><a class="active" href="index.php/home" title="Home">Home</a></li>
-   				 <li><a href="about-us/" title="About Us">About Us</a></li>
-    				<li><a href="products/" title="Products">Products</a></li>
-    				<li><a href="toolssupport" title="Tools & Supports">Tools & Supports</a></li>
-    				<li><a href="whycree" title="Why Cree Lighting?">Why Cree Lighting?</a></li>
-    				<li><a href="dlcenter" title="Download Center">Download Center</a></li>
-    				<li class="noMargin"><a href="contactus" title="Contact Us">Contact Us</a></li>
+    				<li><a href="index.php/home" title="Home">Home</a></li>
+   				 <li><a <?php if($pagename == "about-us"){echo "class='active'"; }?> href="about-us/" title="About Us">About Us</a></li>
+    				<li><a <?php if($pagename == "products"){echo "class='active'"; }?>  href="products/" title="Products">Products</a></li>
+    				<li><a <?php if($pagename == "toolssupport"){echo "class='active'"; }?>  href="toolssupport" title="Tools & Supports">Tools & Supports</a></li>
+    				<li><a <?php if($pagename == "whycree"){echo "class='active'"; }?>  href="whycree" title="Why Cree Lighting?">Why Cree Lighting?</a></li>
+    				<li><a <?php if($pagename == "dlcenter"){echo "class='active'"; }?>  href="dlcenter" title="Download Center">Download Center</a></li>
+    				<li class="noMargin"><a <?php if($pagename == "contactus"){echo "class='active'"; }?>  href="contactus" title="Contact Us">Contact Us</a></li>
   				</ul>
  			
 			</header>
 			<!-- /header -->
 				<div id="highlight" class="clearfix">
  				 <section id="logo">
-   				<a href="#" title="Ecosparks"><h1>Ecosparks</h1></a>
+   				<a href="home" title="Ecosparks"><h1>Ecosparks</h1></a>
   				</section>
